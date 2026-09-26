@@ -1,0 +1,4 @@
+torch>=2.6,<3
+torchvision>=0.21,<1
+numpy>=1.26,<3
+tifffile>=2024.8.30

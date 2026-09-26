@@ -1,0 +1,38 @@
+{
+  "HSC-XMS": {
+    "channels": 150,
+    "num_classes": 9,
+    "rgb_bands": [140, 117, 67],
+    "layout": "CHW",
+    "normalization": "band_minmax",
+    "scale": 1.0,
+    "band_indices": null
+  },
+  "HSC-ZHS": {
+    "channels": 32,
+    "num_classes": 12,
+    "rgb_bands": [13, 7, 5],
+    "layout": "CHW",
+    "normalization": "scale",
+    "scale": 5000.0,
+    "band_indices": null
+  },
+  "HSRS-SC": {
+    "channels": 48,
+    "num_classes": 5,
+    "rgb_bands": [19, 13, 7],
+    "layout": "CHW",
+    "normalization": "scale",
+    "scale": 4000.0,
+    "band_indices": null
+  },
+  "OHS": {
+    "channels": 32,
+    "num_classes": 9,
+    "rgb_bands": [13, 7, 5],
+    "layout": "HWC",
+    "normalization": "scale",
+    "scale": 1000.0,
+    "band_indices": null
+  }
+}
